@@ -21,7 +21,7 @@ export default function Pricing() {
 
                     {/* Left Text */}
                     <motion.div style={{ y }} className="space-y-8">
-                        <h2 className="text-5xl md:text-7xl font-bold text-white tracking-tighter">
+                        <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tighter">
                             강남 달토 가격 안내
                         </h2>
                         <div className="h-1 w-20 bg-white"></div>
