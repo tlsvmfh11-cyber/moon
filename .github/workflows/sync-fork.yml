@@ -1,0 +1,41 @@
+name: Sync Fork with Upstream
+
+on:
+  schedule:
+    # 6시간마다 자동 실행 (UTC 기준)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    # 수동 트리거 (Actions 탭에서 "Run workflow" 버튼)
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Sync with upstream
+        run: |
+          # upstream 추가 (원본 레포)
+          git remote add upstream https://github.com/NEWBIE0413/moon.git
+
+          # upstream에서 최신 변경사항 가져오기
+          git fetch upstream
+
+          # main 브랜치로 체크아웃
+          git checkout main
+
+          # upstream/main과 merge
+          git merge upstream/main --no-edit --allow-unrelated-histories || true
+
+          # 변경사항이 있으면 push
+          git push origin main
