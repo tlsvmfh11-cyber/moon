@@ -13,7 +13,7 @@ export default function Target() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <p className="text-brand-primary font-bold tracking-widest uppercase mb-4 text-xs">Recommended For</p>
-                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">강남 달토, 이런 분들께 추천합니다</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">강남 달토 추천 대상 - 이런 분들께 추천합니다</h2>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/10 border border-white/10 rounded-2xl overflow-hidden mb-12">

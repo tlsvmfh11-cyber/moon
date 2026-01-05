@@ -12,10 +12,12 @@ export default function Intro() {
                 >
                     <p className="text-brand-primary font-bold tracking-widest uppercase mb-6 text-sm">Our Philosophy</p>
                     <h2 className="text-3xl md:text-5xl font-medium text-white leading-snug font-pretendard mb-12">
-                        "강남에서 술자리를 알아볼 때<br />
-                        가장 많이 걱정하는 부분은<br />
-                        <span className="text-white font-bold border-b-2 border-brand-primary">가격, 주대, 내상</span>입니다."
+                        강남 달토 철학 - <span className="text-white font-bold border-b-2 border-brand-primary">가격, 주대, 내상</span> 걱정 없는 술자리
                     </h2>
+                    <p className="text-2xl md:text-3xl text-gray-300 leading-snug mb-8">
+                        "강남에서 술자리를 알아볼 때<br />
+                        가장 많이 걱정하는 부분을 해결합니다."
+                    </p>
 
                     <div className="space-y-6 text-xl text-gray-400 font-light leading-relaxed">
                         <p>

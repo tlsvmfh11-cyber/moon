@@ -30,13 +30,14 @@ export default function Hero() {
                     </div>
 
                     <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter text-white mb-8 mix-blend-overlay opacity-90">
+                        <span className="sr-only">강남 달토 - 하이퍼블릭 가라오케 1위</span>
                         GANGNAM<br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-white to-brand-accent">DALTO</span>
                     </h1>
 
                     <p className="max-w-xl mx-auto text-lg md:text-xl text-gray-300 font-light tracking-wide leading-relaxed mb-12">
-                        시스템을 속이지 않는 정직 1위 가라오케.<br />
-                        <span className="text-white font-medium">강남 달토</span>에서 내상 없는 밤을 약속합니다.
+                        <strong>강남 달토</strong>는 시스템을 속이지 않는 정직 1위 <strong>하이퍼블릭 가라오케</strong>입니다.<br />
+                        내상 없는 밤을 약속합니다.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-5 w-full sm:w-auto">

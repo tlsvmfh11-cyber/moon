@@ -14,7 +14,7 @@ export default function FAQ() {
     return (
         <section id="faq" className="py-24 bg-black">
             <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl font-bold text-white text-center mb-12">자주 묻는 질문</h2>
+                <h2 className="text-3xl font-bold text-white text-center mb-12">강남 달토 자주 묻는 질문 (FAQ)</h2>
 
                 <div className="space-y-4">
                     {faqs.map((faq, index) => (

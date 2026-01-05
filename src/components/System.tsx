@@ -39,9 +39,9 @@ export default function System() {
         <section id="system" className="py-24 bg-black overflow-hidden border-b border-white/5">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="mb-16">
-                    <h2 className="text-6xl md:text-8xl font-black text-white/5 absolute -translate-y-1/2 select-none">SYSTEM</h2>
+                    <span className="text-6xl md:text-8xl font-black text-white/5 absolute -translate-y-1/2 select-none" aria-hidden="true">SYSTEM</span>
                     <h2 className="text-3xl md:text-4xl font-bold text-white relative pl-2 border-l-4 border-brand-primary">
-                        이용 안내 프로세스
+                        강남 달토 이용 안내 프로세스
                     </h2>
                     <p className="mt-4 text-gray-400 relative">처음 오셔도 자연스럽게, 복잡하지 않습니다.</p>
                 </div>
