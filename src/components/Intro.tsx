@@ -11,17 +11,36 @@ export default function Intro() {
                     transition={{ duration: 0.8 }}
                 >
                     <p className="text-brand-primary font-bold tracking-widest uppercase mb-6 text-sm">Our Philosophy</p>
-                    <h2 className="text-3xl md:text-5xl font-medium text-white leading-snug font-pretendard">
+                    <h2 className="text-3xl md:text-5xl font-medium text-white leading-snug font-pretendard mb-12">
                         "강남에서 술자리를 알아볼 때<br />
                         가장 많이 걱정하는 부분은<br />
-                        <span className="text-white font-bold">가격, 주대, 내상</span>입니다."
+                        <span className="text-white font-bold border-b-2 border-brand-primary">가격, 주대, 내상</span>입니다."
                     </h2>
+
+                    <div className="space-y-6 text-xl text-gray-400 font-light leading-relaxed">
+                        <p>
+                            강남 달토는 이런 불안부터 줄이기 위해 시작된<br className="hidden md:block" />
+                            <span className="text-white font-medium">하이퍼블릭 가라오케</span>입니다.
+                        </p>
+                        <p>
+                            과장된 홍보나 애매한 표현 없이<br />
+                            이용 방식·가격 구조·주대 기준을 미리 설명하고,<br />
+                            고객 상황에 맞지 않으면 무리하게 진행하지 않습니다.
+                        </p>
+                    </div>
+
                     <div className="h-20 w-[1px] bg-gradient-to-b from-transparent via-white/50 to-transparent mx-auto my-12"></div>
-                    <p className="text-xl md:text-2xl text-gray-400 font-light leading-relaxed">
-                        달토는 한 번 오고 끝나는 곳이 아니라,<br />
-                        <span className="text-white font-medium">편하게 다시 찾을 수 있는 술자리</span>를<br />
-                        목표로 운영하고 있습니다.
-                    </p>
+
+                    <motion.p
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.3 }}
+                        className="text-2xl md:text-3xl font-medium text-white italic"
+                    >
+                        "달토는 한 번 오고 끝나는 곳이 아니라,<br />
+                        편하게 다시 찾을 수 있는 술자리를 목표로 운영하고 있습니다."
+                    </motion.p>
+
                 </motion.div>
             </div>
         </section>

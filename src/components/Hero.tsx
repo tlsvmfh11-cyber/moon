@@ -13,7 +13,7 @@ export default function Hero() {
             {/* Parallax Background */}
             <motion.div
                 style={{ y }}
-                className="absolute inset-0 w-full h-[120%] -top-[10%] bg-[url('https://images.unsplash.com/photo-1566737236500-c8ac43014a67?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center"
+                className="absolute inset-0 w-full h-[120%] -top-[10%] bg-[url('/assets/intro.jpg')] bg-cover bg-center"
             >
                 <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/50 to-black" />
             </motion.div>

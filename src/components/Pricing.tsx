@@ -27,9 +27,9 @@ export default function Pricing() {
                         </h2>
                         <div className="h-1 w-20 bg-white"></div>
                         <p className="text-gray-400 text-lg leading-relaxed max-w-md">
-                            강남 달토의 가격 정책은 <span className="text-white font-bold">투명함</span>입니다.<br />
-                            입장 전 브리핑된 가격 그대로 결제가 진행됩니다.<br />
-                            무리한 요구도, 숨겨진 비용도 없습니다.
+                            강남 달토 가격은 ‘무조건 싸다’가 아니라<br />
+                            <span className="text-white font-bold">합리적인 선에서 만족도가 높은 구조</span>를 기준으로 합니다.<br />
+                            투명한 정찰제로 내상 없는 밤을 약속합니다.
                         </p>
                         <a href="tel:01023033778" className="inline-flex items-center gap-3 text-brand-primary font-bold text-lg hover:text-white transition-colors group">
                             상세 견적 문의하기

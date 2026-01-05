@@ -23,9 +23,10 @@ export default function ParallaxSection({ children, className = "", bgImage, str
             {bgImage && (
                 <motion.div
                     style={{ y, backgroundImage: `url(${bgImage})` }}
-                    className="absolute inset-0 w-full h-[120%] -top-[10%] bg-cover bg-center bg-no-repeat z-0 opacity-50 grayscale-[30%]"
+                    className="absolute inset-0 w-full h-[120%] -top-[10%] bg-cover bg-center bg-no-repeat z-0 opacity-100"
                 >
-                    <div className="absolute inset-0 bg-black/60" />
+                    {/* Optional lightweight overlay if needed for text, but keeping it minimal as requested */}
+                    <div className="absolute inset-0 bg-black/30" />
                 </motion.div>
             )}
             <div className="relative z-10 w-full h-full">
