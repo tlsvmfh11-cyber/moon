@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-black: #000000;
+  --color-brand-dark: #0a0a0a;
+  --color-brand-gray: #1c1c1c;
+  --color-brand-accent: #7c3aed;
+  --color-brand-primary: #e11d48;
+
+  --font-pretendard: 'Pretendard', sans-serif;
+
+  --background-image-hero-glow: conic-gradient(from 180deg at 50% 50%, #2a8af6 0deg, #a853ba 180deg, #e92a67 360deg);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-black text-white antialiased font-pretendard;
+  }
+}
+
+/* Custom glow effects */
+.text-glow {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.neon-border {
+  box-shadow: 0 0 10px rgba(124, 58, 237, 0.5), inset 0 0 10px rgba(124, 58, 237, 0.2);
+}
