@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Yeti
+Allow: /
+Crawl-delay: 1
+
+User-agent: Daumoa
+Allow: /
+Crawl-delay: 1
+
+Sitemap: https://runningrabbitsik.com/sitemap.xml

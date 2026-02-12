@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://runningrabbitsik.com/</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://runningrabbitsik.com/assets/og-image.jpg</image:loc>
+      <image:title>강남 달토 하이퍼블릭 가라오케 공식 이미지</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://runningrabbitsik.com/assets/intro.jpg</image:loc>
+      <image:title>강남 달토 하이퍼블릭 내부 분위기</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://runningrabbitsik.com/assets/lineup.jpg</image:loc>
+      <image:title>강남 달토 매니저 라인업</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://runningrabbitsik.com/assets/honesty.jpg</image:loc>
+      <image:title>강남 달토 투명한 정찰제 가격</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://runningrabbitsik.com/assets/care.jpg</image:loc>
+      <image:title>강남 달토 프리미엄 케어 서비스</image:title>
+    </image:image>
+  </url>
+</urlset>
